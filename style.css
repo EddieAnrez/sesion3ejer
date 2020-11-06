@@ -16,3 +16,37 @@
     height: 100px;
     background-color: black;
 }
+
+.custom>h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+
+.custom>p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.custom>form {
+    display: flex;
+}
+
+.custom>form p {
+    color: #025157;
+    margin-right: 18px;
+}
+
+.custom>form button {
+    color: white;
+    background-color: #025157;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-style: none;
+    border-radius: 5px;
+}
